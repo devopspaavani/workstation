@@ -4,10 +4,10 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures workstation'
 long_description 'Installs/Configures workstation'
-version '0.1.1'
+version '0.1.2'
 chef_version '>= 12.14' if respond_to?(:chef_version)
 
-supports centos,ubuntu
+supports centos
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
